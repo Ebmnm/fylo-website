@@ -9,6 +9,7 @@ body {
 }
 
 button {
+  margin-top: 15px;
   width: 70%;
   background-color: #65e2d9;
   border-radius: 2em;
@@ -44,8 +45,10 @@ nav h2 {
 nav img {
   margin: 15px;
   height: 45%;
-  width: 28%;
+  width: 25%;
   padding-top: 10px;
+  margin-right: 8px;
+  margin-left: 40px;
 }
 
 .nav-text {
@@ -57,14 +60,14 @@ nav img {
       -ms-flex-direction: row;
           flex-direction: row;
   white-space: nowrap;
-  margin-right: 5%;
+  margin-right: 2%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .top {
-  width: 85%;
+  width: 100%;
   height: auto;
   margin: 0;
   margin-bottom: 100px;
@@ -89,7 +92,16 @@ nav img {
 }
 
 .top .top-text {
+  width: 90%;
+  margin: auto;
   text-align: center;
+  inline-size: 90%;
+  overflow-wrap: normal;
+}
+
+.top .top-text p {
+  width: 90%;
+  margin: auto;
 }
 
 .card-section {
@@ -105,14 +117,9 @@ nav img {
   margin-bottom: 10%;
 }
 
-.card-section p {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .card-section .card {
   text-overflow: ellipsis;
+  margin: auto;
   margin-bottom: 50px;
   width: 90%;
   word-wrap: break-word;
@@ -271,7 +278,9 @@ nav img {
     margin: 20px;
   }
   nav .logo {
-    margin-left: 80px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 100px;
     width: 10%;
   }
   .top {

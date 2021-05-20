@@ -14,6 +14,7 @@
 
    
 button {
+    margin-top:15px;
     width: 70%;
     background-color: hsl(176, 68%, 64%);
     border-radius:2em;
@@ -39,9 +40,10 @@ nav {
     img{
         margin:15px;
 height: 45%;
-width: 28%;
+width: 25%;
 padding-top: 10px;
-
+margin-right: 8px;
+margin-left: 40px;
 
     }
 }
@@ -50,18 +52,19 @@ padding-top: 10px;
     display: flex;
     flex-direction: row;
     white-space: nowrap;
-    margin-right: 5%;
+    margin-right: 2%;
     align-items: center;
 }
 
  .top {
-    width:85%;
+    width:100%;
     height:auto;
     margin:0;
    margin-bottom: 100px;
 
    h1 {
        font-size: 30px;
+ 
    }
 
  img {
@@ -78,9 +81,16 @@ padding-top: 10px;
         }
 
     .top-text {
-       
+        width: 90%;
+        margin: auto;
         text-align: center;
+        inline-size: 90%;
+        overflow-wrap: normal;
         
+        p{
+            width: 90%;
+            margin: auto;
+        }
         }
 }
 
@@ -93,16 +103,14 @@ width: 95%;
 
 margin-bottom: 10%;
 
-    p{
-        width: fit-content;
-        
-
-    }
+ 
     .card {
         text-overflow: ellipsis;
+        margin:auto;
         margin-bottom: 50px;
        width: 90%;
-       word-wrap: break-word
+       word-wrap: break-word;
+       
     }
 }
     .section-double {
@@ -250,7 +258,9 @@ margin-bottom: 20%;
               margin:20px;
           }
        .logo{
-           margin-left:80px;
+           margin:0;
+           margin-top:20px;
+           margin-left:100px;
            width: 10%;
         }
       }
