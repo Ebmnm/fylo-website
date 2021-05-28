@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger)
 
-gsap.from(`.top`, {duration: 1, y: `-80%`, opacity: 0, 
+gsap.from(`.top`, {duration: 1, y: `-50%`, opacity: 0, 
 ease: Power3.easeOut})
 
 gsap.from(`nav`, {duration:1, opacity: 0})
